@@ -32,15 +32,24 @@ void main(){
     await tester.testTextInput.receiveAction(TextInputAction.done);
     await tester.pump();
 
+    await addDelay(3000);
+
     final Finder passwordTextFieldFinder = find.byKey(passwordTextFieldKey);
     await tester.enterText(passwordTextFieldFinder, '1234567');
     await tester.testTextInput.receiveAction(TextInputAction.done);
     await tester.pump();
 
+    await addDelay(3000);
+
     final Finder loginButtonEnterFinder = find.byKey(loginButtonEnterKey);
     await tester.tap(loginButtonEnterFinder);
 
+
     await tester.pumpAndSettle();
+
+
+    await addDelay(3000);
+
 
   });
 

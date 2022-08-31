@@ -1,16 +1,13 @@
-# example_test
+# UWI Testing
 
-A new Flutter project.
+Una demo para los tres tipos de pruebas en Flutter tomando como base un formulario
 
-## Getting Started
+## Enlaces de interes
 
-This project is a starting point for a Flutter application.
+Presentacion:
+- https://docs.google.com/presentation/d/1watS4lXk9xplXiAus6x4no6HYSDeX_2TbPA64gctGrI/edit?usp=sharing
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Links de interes:
+- https://docs.flutter.dev/testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

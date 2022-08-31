@@ -32,14 +32,6 @@ void main(){
 
     });
 
-    test('should return a message when email is null', () => (){
-
-      var result = FakeFieldValidator().validateEmail(null);
-
-      expect(result, 'Ingresar correo');
-
-    });
-
   });
 
   group('password validation test', () {
